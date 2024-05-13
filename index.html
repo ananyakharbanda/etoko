@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>etoko</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>etoko</h1>
+        <nav>
+          <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#help">Help</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="about" class="section beige-bg">
+        <div class="container">
+          <h2 class="section-heading">About etoko</h2>
+          <p class="tagline">One-stop shop for all your needs</p>
+        </div>
+      </section>
+
+      <section id="products" class="section products-section grey-bg">
+        <div class="container">
+          <h2 class="section-heading">Our Products</h2>
+          <div class="products-row">
+            <div class="product">
+              <img src="product1.jpg" alt="Product 1" />
+              <h3>Product 1</h3>
+              <p>Description of Product 1.</p>
+              <p>Price: $10</p>
+            </div>
+            <div class="product">
+              <img src="product2.jpg" alt="Product 2" />
+              <h3>Product 2</h3>
+              <p>Description of Product 2.</p>
+              <p>Price: $20</p>
+            </div>
+            <div class="product">
+              <img src="product3.jpg" alt="Product 3" />
+              <h3>Product 3</h3>
+              <p>Description of Product 3.</p>
+              <p>Price: $30</p>
+            </div>
+            <div class="product">
+              <img src="product4.jpg" alt="Product 4" />
+              <h3>Product 4</h3>
+              <p>Description of Product 4.</p>
+              <p>Price: $40</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="pricing" class="section beige-bg">
+        <div class="container">
+          <h2 class="section-heading">Pricing and Charges</h2>
+          <p>Dummy pricing information.</p>
+        </div>
+      </section>
+
+      <section id="help" class="section help-section grey-bg">
+        <div class="container">
+          <h2 class="section-heading">Get Help</h2>
+          <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required /><br />
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required /><br />
+            <label for="message">Message:</label><br />
+            <textarea id="message" name="message" rows="4" required></textarea
+            ><br />
+            <input type="submit" value="Submit" />
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2024 etoko. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
